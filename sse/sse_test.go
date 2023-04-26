@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"go.oneofone.dev/gserv"
-	"go.oneofone.dev/gserv/sse"
+	"github.com/alpineiq/gserv"
+	"github.com/alpineiq/gserv/sse"
 )
 
 func TestSSE(t *testing.T) {

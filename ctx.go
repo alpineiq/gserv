@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"go.oneofone.dev/genh"
-	"go.oneofone.dev/gserv/internal"
-	"go.oneofone.dev/gserv/router"
-	"go.oneofone.dev/oerrs"
-	"go.oneofone.dev/otk"
+	"github.com/alpineiq/genh"
+	"github.com/alpineiq/gserv/internal"
+	"github.com/alpineiq/gserv/router"
+	"github.com/alpineiq/oerrs"
+	"github.com/alpineiq/otk"
 )
 
 var (

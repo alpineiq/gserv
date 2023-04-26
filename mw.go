@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/gorilla/securecookie"
-	"go.oneofone.dev/gserv/internal"
+	"github.com/alpineiq/gserv/internal"
 )
 
 var reqID uint64

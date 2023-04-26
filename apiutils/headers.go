@@ -3,7 +3,7 @@ package apiutils
 import (
 	"net/http"
 
-	"go.oneofone.dev/gserv"
+	"github.com/alpineiq/gserv"
 )
 
 // SHM is a Simple Headers Map

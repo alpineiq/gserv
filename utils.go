@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"go.oneofone.dev/gserv/internal"
+	"github.com/alpineiq/gserv/internal"
 	"golang.org/x/net/http2"
 )
 

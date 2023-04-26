@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"go.oneofone.dev/gserv/router"
-	"go.oneofone.dev/oerrs"
+	"github.com/alpineiq/gserv/router"
+	"github.com/alpineiq/oerrs"
 )
 
 type (

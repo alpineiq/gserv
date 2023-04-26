@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"go.oneofone.dev/oerrs"
-	"go.oneofone.dev/otk"
+	"github.com/alpineiq/oerrs"
+	"github.com/alpineiq/otk"
 )
 
 // Common responses

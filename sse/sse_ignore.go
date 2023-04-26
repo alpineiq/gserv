@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"sync"
 
-	"go.oneofone.dev/gserv"
+	"github.com/alpineiq/gserv"
 )
 
 var (

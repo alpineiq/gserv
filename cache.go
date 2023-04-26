@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"go.oneofone.dev/genh"
+	"github.com/alpineiq/genh"
 )
 
 type cacheItem struct {

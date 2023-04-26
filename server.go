@@ -15,8 +15,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.oneofone.dev/gserv/router"
-	"go.oneofone.dev/oerrs"
+	"github.com/alpineiq/gserv/router"
+	"github.com/alpineiq/oerrs"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )

@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"go.oneofone.dev/gserv/router"
+	"github.com/alpineiq/gserv/router"
 )
 
 // Options allows finer control over the gserv

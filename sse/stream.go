@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"go.oneofone.dev/gserv"
-	"go.oneofone.dev/gserv/internal"
-	"go.oneofone.dev/oerrs"
+	"github.com/alpineiq/gserv"
+	"github.com/alpineiq/gserv/internal"
+	"github.com/alpineiq/oerrs"
 )
 
 const (

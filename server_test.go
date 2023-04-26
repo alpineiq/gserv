@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"go.oneofone.dev/gserv/router"
-	"go.oneofone.dev/otk"
+	"github.com/alpineiq/gserv/router"
+	"github.com/alpineiq/otk"
 )
 
 func init() {
@@ -28,8 +28,8 @@ var testData = []struct {
 	{"/ping", NewJSONResponse("pong")},
 	{"/ping/world", NewJSONResponse("pong:world")},
 	{"/random", NewJSONErrorResponse(404)},
-	{"/panic", NewJSONErrorResponse(http.StatusInternalServerError, "PANIC in GET /panic: well... poo", "at go.oneofone.dev/gserv.TestServer.func2")},
-	{"/panic2", NewJSONErrorResponse(http.StatusInternalServerError, "PANIC in GET /panic2: well... poo", "at go.oneofone.dev/gserv.panicTyped")},
+	{"/panic", NewJSONErrorResponse(http.StatusInternalServerError, "PANIC in GET /panic: well... poo", "at github.com/alpineiq/gserv.TestServer.func2")},
+	{"/panic2", NewJSONErrorResponse(http.StatusInternalServerError, "PANIC in GET /panic2: well... poo", "at github.com/alpineiq/gserv.panicTyped")},
 	{"/mw/sub/id", NewJSONResponse("data:/mw/sub/:id")},
 	{"/mw/sub/disabled/id", NewJSONErrorResponse(404)},
 }

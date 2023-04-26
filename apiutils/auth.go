@@ -7,8 +7,8 @@ import (
 
 	jwt "github.com/golang-jwt/jwt/v4"
 	jwtReq "github.com/golang-jwt/jwt/v4/request"
-	"go.oneofone.dev/gserv"
-	"go.oneofone.dev/oerrs"
+	"github.com/alpineiq/gserv"
+	"github.com/alpineiq/oerrs"
 )
 
 type (

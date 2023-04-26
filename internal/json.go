@@ -3,7 +3,7 @@ package internal
 import (
 	"encoding/json"
 
-	"go.oneofone.dev/otk"
+	"github.com/alpineiq/otk"
 )
 
 func Marshal(v any) ([]byte, error) {

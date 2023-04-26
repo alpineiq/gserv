@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"go.oneofone.dev/genh"
+	"github.com/alpineiq/genh"
 )
 
 // Common mime-types

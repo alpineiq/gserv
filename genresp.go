@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"go.oneofone.dev/oerrs"
+	"github.com/alpineiq/oerrs"
 )
 
 func NewResponse[CodecT Codec](data any) *GenResponse[CodecT] {
